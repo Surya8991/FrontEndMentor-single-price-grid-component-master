@@ -86,14 +86,14 @@ button{
 .top-section{
     margin: 0;
     text-align: center;
-    width: 95vw;
+    width: 80vw;
 }
 .community{
     display: flex;
     flex-direction: column;
 }
 .bottom-left,.bottom-right{
-    width: 95vw;
+    width: 80vw;
 }
 main{
     margin: 50px auto 20px;
