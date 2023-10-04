@@ -29,7 +29,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/Surya8991/FrontEndMentor-single-price-grid-component-master](https://github.com/Surya8991/FrontEndMentor-single-price-grid-component-master)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://silly-lollipop-9c213a.netlify.app/](https://silly-lollipop-9c213a.netlify.app/)
 
 ## My process
 
