@@ -16,19 +16,17 @@ h1{
     color:hsl(179, 62%, 43%);
 }
 .top-section{
-    margin-left: 90px;
-    margin-top: 30px;
+    background-color: white;
+    width: 600px;
 }
-section{
+.community{
     display: flex;
     color: white;
 }
 .grid{
     display: flex;
-    width: 600px;
-    background-color: white;
     border-radius: 5px;
-    height: 400px;
+    
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
@@ -83,3 +81,21 @@ button{
 }
 .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
+    
+@media only screen and (max-width: 600px){
+.top-section{
+    margin: 0;
+    text-align: center;
+    width: 95vw;
+}
+.community{
+    display: flex;
+    flex-direction: column;
+}
+.bottom-left,.bottom-right{
+    width: 95vw;
+}
+main{
+    margin: 50px auto 20px;
+}
+    }
