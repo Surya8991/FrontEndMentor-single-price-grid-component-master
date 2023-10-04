@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: hsl(204, 43%, 93%);
+    font-family: 'Karla', sans-serif;
+}
+main{
+    margin: 100px auto 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+h1{
+    color:hsl(179, 62%, 43%);
+}
+.top-section{
+    margin-left: 90px;
+    margin-top: 30px;
+}
+section{
+    display: flex;
+    color: white;
+}
+.grid{
+    display: flex;
+    width: 600px;
+    background-color: white;
+    border-radius: 5px;
+    height: 400px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.top-section-offer{
+    color: hsl(71, 73%, 54%);
+    font-weight: 700;
+}
+.top-section-summary{
+    color: hsl(218, 22%, 67%);
+}
+li{
+    list-style: none;
+    color: hsl(204, 43%, 93%);
+}
+.bottom-left{
+    width: 300px;
+    height: 200px;
+    display: flex;
+    background-color: hsl(179, 62%, 43%);
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: justify;
+}
+.price{
+    display: flex;
+    color: hsla(217, 85%, 49%, 0.462);
+    align-items: center;
+    padding-left: 20px;
+}
+span{
+    font-size: 40px;
+    color: white;
+}
+.bottom-right{
+    width: 300px;
+    height: 200px;
+    display: flex;
+    background-color: hsl(179, 62%, 43%,75%);
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: justify;
+}
+button{
+    padding: 10px 80px;
+    color: white;
+    border: none;
+    background-color: hsl(71, 73%, 54%);
+    border-radius: 5px;
+}
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
